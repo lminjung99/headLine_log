@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.headline_log.HeadlineLogApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-15T12:44:23" hostname="iminjeong-ui-MacBookAir.local" time="0.445">
+<testsuite name="com.example.headline_log.HeadlineLogApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-15T13:29:45" hostname="iminjeong-ui-MacBookAir.local" time="0.44">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.headline_log.HeadlineLogApplicationTests" time="0.445"/>
-  <system-out><![CDATA[21:44:22.554 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.headline_log.HeadlineLogApplicationTests]: HeadlineLogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:44:22.589 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.headline_log.HeadlineLogApplication for test class com.example.headline_log.HeadlineLogApplicationTests
+  <testcase name="contextLoads()" classname="com.example.headline_log.HeadlineLogApplicationTests" time="0.44"/>
+  <system-out><![CDATA[22:29:44.529 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.headline_log.HeadlineLogApplicationTests]: HeadlineLogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:29:44.566 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.headline_log.HeadlineLogApplication for test class com.example.headline_log.HeadlineLogApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,9 +13,12 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.4)
 
-2023-10-15T21:44:22.727+09:00  INFO 43913 --- [    Test worker] c.e.h.HeadlineLogApplicationTests        : Starting HeadlineLogApplicationTests using Java 20.0.2 with PID 43913 (started by iminjeong in /Users/iminjeong/headLine_log)
-2023-10-15T21:44:22.728+09:00  INFO 43913 --- [    Test worker] c.e.h.HeadlineLogApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2023-10-15T21:44:23.134+09:00  INFO 43913 --- [    Test worker] c.e.h.HeadlineLogApplicationTests        : Started HeadlineLogApplicationTests in 0.494 seconds (process running for 0.929)
+2023-10-15T22:29:44.707+09:00  INFO 44828 --- [    Test worker] c.e.h.HeadlineLogApplicationTests        : Starting HeadlineLogApplicationTests using Java 20.0.2 with PID 44828 (started by iminjeong in /Users/iminjeong/headLine_log)
+2023-10-15T22:29:44.708+09:00  INFO 44828 --- [    Test worker] c.e.h.HeadlineLogApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2023-10-15T22:29:45.114+09:00  INFO 44828 --- [    Test worker] c.e.h.HeadlineLogApplicationTests        : Started HeadlineLogApplicationTests in 0.495 seconds (process running for 1.031)
+2023-10-15T22:29:45.114+09:00  INFO 44828 --- [    Test worker] c.e.headline_log.service.LoggingRunner   : /Users/iminjeong/headLine_log
+2023-10-15T22:29:45.114+09:00  WARN 44828 --- [    Test worker] c.e.headline_log.service.LoggingRunner   : /Users/iminjeong/headLine_log
+2023-10-15T22:29:45.114+09:00 ERROR 44828 --- [    Test worker] c.e.headline_log.service.LoggingRunner   : /Users/iminjeong/headLine_log
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
